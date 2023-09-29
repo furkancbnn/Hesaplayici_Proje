@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    padding: 50px;
+}
+.heading{
+    color: black;
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 2px 80px 10px 10px;
+}
+.container{
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 50px;
+    height: 80vh;
+    width: 70vh;
+    border-radius: 15px 10px 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.greet{
+    align-self: flex-start;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+.greet input{
+    outline: none;
+    border: none;
+    font-size: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.double{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+} 
+.form-harcama, .form-fiyat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+input{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.ekle-btn{
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: ease-in .2s all;
+}
+.ekle-btn:hover{
+    transform: scale(1.1);
+}
+.toplam{
+    background-color: rgb(0, 35, 35);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 21px;
+}
+.toplam span{
+    color: aqua;
+}
+/* Liste */
+.liste{
+    gap: 30px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+    
+    padding: 10px;
+}
+.harcama{
+    border-radius: 10px;
+    height: 60px;
+    box-shadow: 3px 10px 15px 1px black;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons img{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    width: 50px ;
+    height: 50px;
+    transition: ease .4s all;
+}
+.buttons img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.payed{
+    opacity: 0.7;
+}
+
+.harcama h2:nth-child(2){
+    color: red;
+}
+.payed h2:nth-child(2){
+    color: green;
+}
+.payed h2:nth-child(1){
+    text-decoration: line-through;
+}
+
