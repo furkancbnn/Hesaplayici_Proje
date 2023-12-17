@@ -24,10 +24,3 @@ Projeyi yerel olarak çalıştırmak için aşağıdaki adımları izleyin:
 3. Bağımlılıkları yükleyin: `npm install`
 4. Uygulamayı başlatın: `npm start`
 
-## Katkılar
-
-Bu projeye katkıda bulunmak isterseniz, lütfen bir çekme isteği (pull request) gönderin. Her türlü katkı ve öneriye açığız.
-
-## Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Detaylar için [LİSANS](LICENSE) dosyasına bakın.
